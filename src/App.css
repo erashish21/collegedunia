@@ -1,0 +1,65 @@
+.colleges-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+/* Style for the select element */
+.colleges-table select {
+  color: #FF6633; /* Text color */
+  background-color: #eeeee9; /* Background color */
+  border: none; /* Border color */
+  padding: 5px; /* Padding */
+  font-size: 14px; /* Font size */
+}
+
+/* Style for the options within the select element */
+.colleges-table option {
+  color: #FF6633; /* Text color */
+  background-color: #ffffff; /* Background color */
+}
+
+.colleges-table th,
+.colleges-table td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  font-size: 16px; /* Adjust font size as needed */
+  color: #333333; /* Default color for text */
+}
+
+.colleges-table th {
+  background-color: #008080;
+  color: #ffffff;
+  text-align: left;
+}
+.colleges-table td{
+  color: #0ae1ecfc;
+}
+
+.colleges-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.colleges-table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.colleges-table img {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  margin-right: 10px; /* Add some spacing between logo and text */
+}
+
+.colleges-table td:first-child {
+  text-align: left; /* Align the content of the first column (containing the logo) to the left */
+}
+
+/* Additional styling for specific elements */
+.colleges-table span {
+  color: #666666; /* Color for additional text */
+  font-size: 14px; /* Adjust font size for additional text */
+}
+
+.colleges-table p {
+  margin: 5px 0; /* Adjust spacing for paragraphs */
+}
+
